@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.logo{
+    width: 60px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin:0px 30px;
+    text-decoration: none;
+    color: #810CA8;
+    letter-spacing: 1px;
+}
+
+header ul li a:after{
+    content: "";
+    position: absolute;
+    background-color:#810CA8;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+header ul li a:hover::after{
+    width: 100%;
+}
+
+main .container{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    left: 50px;
+}
+
+.content{
+    position: relative;
+    width: 50%;
+    margin-top: 50px;
+    left: 50px;
+}
+
+.content h1{
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    color: rgb(69, 68, 68);
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.content h1 span{
+    font-weight: bold;
+    color: #810CA8;
+}
+.content p{
+    position: relative;
+    color: rgb(69, 68, 68);
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 40px;
+    border: none;
+    background-color: #C147E9;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.hero{
+    margin: 130px 80px 0 0;
+}
