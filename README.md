@@ -1,1 +1,1 @@
-<h1>INTODUCTION TO AI(Artifical Intelligence)</h1>
+<h1>LANDING PAGE - INTODUCTION TO AI(Artifical Intelligence)</h1>
